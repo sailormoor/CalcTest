@@ -80,7 +80,7 @@ public class CalculatorTest {
         Assertions.assertEquals(expectedResult, result);
     }
 
-    public Stream<Arguments> source(){
+    static Stream<Arguments> source(){
         return Stream.of(
                 Arguments.of(1, 6, 6),
                 Arguments.of(0, 10, 0),
